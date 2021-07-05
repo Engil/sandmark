@@ -191,9 +191,9 @@ bench and add only the benchmarks you care about.
 
 We can obtain throughput and latency results for the benchmarks. For obtaining
 latency results, we can adjust the environment variable `RUN_BENCH_TARGET`.
-The scripts for latencies are present in the `pausetimes/` directory. The
-`pausetimes_trunk` Bash script obtains the latencies for stock OCaml and the
-`pausetimes_multicore` Bash script for Multicore OCaml.
+The script for latencies is present in the `pausetimes/` directory. The
+`pausetimes` Bash script obtains the latencies for both stock OCaml and
+Multicore OCaml.
 
 ### Results
 
